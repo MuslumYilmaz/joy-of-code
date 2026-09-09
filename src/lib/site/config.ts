@@ -10,6 +10,7 @@ export const twitter = 'https://x.com/joyofcodedev'
 export const bluesky = 'https://bsky.app/profile/joyofcode.xyz'
 export const youtube = 'https://www.youtube.com/@joyofcodedev'
 export const github = 'https://github.com/mattcroat'
+export const repository = 'https://github.com/mattcroat/joy-of-code'
 export const uses = 'https://github.com/mattcroat/uses'
 
 export const categories = {

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Bluesky, Mail, RSS, X, YouTube } from '#lib/icons/index.js'
+	import { Bluesky, GitHub, Mail, RSS, X, YouTube } from '#lib/icons/index.js'
 	import * as config from '#lib/site/config.js'
 </script>
 
@@ -48,6 +48,17 @@
 				>
 					<Bluesky width={20} height={20} aria-hidden={true} />
 					<span>Bluesky</span>
+				</a>
+			</li>
+			<li>
+				<a
+					href={config.github}
+					target="_blank"
+					rel="noreferrer"
+					class="text-footer-fg hover:text-primary"
+				>
+					<GitHub width={20} height={20} aria-hidden={true} />
+					<span>GitHub</span>
 				</a>
 			</li>
 			<li>
