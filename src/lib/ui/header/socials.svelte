@@ -11,7 +11,7 @@
 		<X width={24} height={24} aria-label="Twitter" />
 	</a>
 	<a href={config.bluesky} target="_blank" rel="noreferrer">
-		<Bluesky width={20} height={20} aria-label="Bluesky" />
+		<Bluesky width={24} height={24} aria-label="Bluesky" />
 	</a>
 	<a href={config.repository} target="_blank" rel="noreferrer">
 		<GitHub width={24} height={24} aria-label="GitHub repository" viewBox="0 0 22 24" />

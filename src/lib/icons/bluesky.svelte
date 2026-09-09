@@ -9,7 +9,9 @@
 	viewBox="0 0 600 600"
 	fill="none"
 	stroke="currentColor"
-	stroke-width="30"
+	stroke-width="37.5"
+	stroke-linecap="round"
+	stroke-linejoin="round"
 	{...rest}
 >
 	<path

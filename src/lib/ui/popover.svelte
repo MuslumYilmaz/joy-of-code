@@ -39,6 +39,7 @@
 	aria-expanded={open}
 	aria-controls={id}
 	aria-label={label}
+	class="transition-colors hover:text-primary"
 >
 	{@render trigger()}
 </button>
