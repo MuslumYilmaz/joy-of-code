@@ -254,4 +254,6 @@ dialog:open::backdrop {
 
 When you close the modal, it does the exit transition. Because we're using CSS transitions instead of keyframes, we can interrupt the dialog transition, which wouldn't be possible using keyframes.
 
+Alongside the transition, check that focus stays inside the open modal, its title is announced by a screen reader, and focus returns to the trigger on close. For a separate custom React portal example, [FrontendAtlas's modal accessibility case](https://frontendatlas.com/incidents/modal-screen-reader-failure) provides a public overview, markup, and keyboard observations showing how these behaviors can fail. FrontendAtlas is freemium; the linked overview and evidence are available without signing in.
+
 That's it! 😄 Now you can create smooth enter and exit transitions using modern CSS features like `@starting-style`, `allow-discrete`, and the View Transition API.
